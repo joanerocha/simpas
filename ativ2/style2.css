@@ -1,0 +1,159 @@
+body {
+	
+	color: #356618;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	min-width: 940px;
+	padding: 0;
+}
+#img{
+	position: static;
+	padding-left: 35%; 
+}
+#img2{
+	padding-left: 40%;
+	padding-right: 38%;
+	position: static;
+	width: 200px;
+	background-color: white;
+}
+a {
+	outline: none;
+}
+p {
+	margin: 0;
+	text-align: justify;
+}
+#texto{
+	text-align: center;
+	outline: none;
+	color: white;
+}
+#page {
+	background: #A7560A; /*#23238E mudei*/
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 900px;
+}
+#header {
+	background: #BEAE00;
+	height: 151px;
+}
+
+#header > ul {
+	background: #4b4b4b;
+	height: 49px;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 900px;
+}
+#header > ul > li {
+	float: left;
+	position: relative;
+	width: 128px;
+}
+#header > ul > li > a {
+	color: #f0f2c9;
+	display: block;
+	letter-spacing: 0.1em;
+	line-height: 49px;
+	text-align: center;
+	text-decoration: none;
+}
+#header > ul > li.current > a,
+#header > ul > li.current > a:hover,
+#header ul li ul li.current a,
+#header ul li ul li.current a:hover {
+	background: #C0D9D9; /*realce da seleção*/
+	color: #356618;
+}
+#header ul li a:hover {
+	background: #daead0;
+	color: #1b330c;
+}
+#header ul li ul {
+	list-style: none;
+	left: -99999px;
+	margin: 0;
+	overflow: visible;
+	padding: 11px 0 0;
+	position: absolute;
+	top: 49px;
+	width: 150px;
+	z-index: 2;
+}
+#header ul li:hover ul {
+	left: 0;
+	top: 49px;
+}
+#header ul li ul li {
+	background: #4B4B4B;
+}
+#header ul li ul li a {
+	color: #f0f2c9;
+	display: block;
+	line-height: 31px;
+	text-align: center;
+	text-decoration: none;
+}
+div#slideshow{
+	left:20;
+	position:absolute;
+	top:0px;
+	margin-left:0px;
+}
+#body div.header div div h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+}
+#body div.header div div h1 a {
+	color: #e3e699;
+	text-decoration: none;
+}
+#body div.header div div h1 a:hover {
+	color: #ffffff;
+}
+#body div.header div div p {
+	color: #ffffff;
+	letter-spacing: 0.028em;
+	line-height: 24px;
+}
+#tam{
+	width: 900px;
+	
+}
+
+#footer {
+	background: #dce9d4;
+	border-top: 1px solid #b8d0aa;
+}
+#footer p {
+	background: #356618;
+	color: #ffffff;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #8da181;
+}
+.t{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+.tam{
+	height: 484px;
+	width: 900px;
+}
+.breve{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	padding-left: 300px;
+	padding-top: 200px;
+	text-decoration-color: white;	
+}
